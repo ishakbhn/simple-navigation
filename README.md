@@ -16,8 +16,8 @@ Each CSS properties and selectors has its unique and use case. Knowing how and w
 
 #### Font family
 
-Title: Lora(Google Font) - 2rem
-Subtitle: Ubuntu bold - .75rem
+Title: Lora(Google Font) - 2rem  
+Subtitle: Ubuntu bold - .75rem  
 Navigation: Ubuntu bold - 1rem
 
 #### Colors
