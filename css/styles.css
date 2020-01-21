@@ -1,0 +1,72 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+}
+
+/* Typography */
+h1 {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #143774;
+  margin: 0;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 0.75rem;
+  color: #1792d2;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* Layout */
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  background: #f8f8f8;
+  padding: 2em 0;
+}
+
+/* Navigation */
+.nav-list {
+  font-family: "Ubuntu", sans-serif;
+  list-style: none;
+  text-transform: uppercase;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list-item {
+  margin: 0 1em;
+}
+
+nav a {
+  color: #707070;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.25em 0;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #2d93fa;
+}
+
+.current-page {
+  border-bottom: 2px solid #707070;
+}
+.current-page:hover {
+  color: #707070;
+}
