@@ -3,7 +3,9 @@ body {
   margin: 0;
 }
 
-/* Typography */
+/*========= 
+Typography
+==========*/
 h1 {
   font-family: "Lora", serif;
   font-weight: 400;
@@ -20,14 +22,15 @@ h1 {
   margin: 0;
 }
 
-/* Layout */
+/*=========
+Layout
+===========*/
 .container {
-  width: 90%;
-  max-width: 900px;
-  margin: 0 auto;
+  padding: 0 2em;
 }
 
 .container-nav {
+  /* border: 1px dotted red; */
   display: flex;
   justify-content: space-between;
 }
@@ -37,8 +40,21 @@ header {
   padding: 2em 0;
 }
 
-/* Navigation */
+@media (max-width: 675px) {
+  .container-nav {
+    flex-direction: column;
+  }
+
+  .container {
+    text-align: center;
+  }
+}
+
+/*========= 
+Navigation
+===========*/
 .nav-list {
+  /* border: 1px solid blue; */
   font-family: "Ubuntu", sans-serif;
   list-style: none;
   text-transform: uppercase;
@@ -48,7 +64,7 @@ header {
 }
 
 .nav-list-item {
-  margin: 0 1em;
+  margin-left: 2em;
 }
 
 nav a {
@@ -69,4 +85,14 @@ nav a:focus {
 }
 .current-page:hover {
   color: #707070;
+}
+
+@media (max-width: 675px) {
+  .nav-list {
+    flex-direction: column;
+  }
+
+  .nav-list-item {
+    margin: 1em 0;
+  }
 }
